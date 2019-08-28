@@ -38,6 +38,7 @@ h1{
   line-height: 1.5;
   letter-spacing: -.2px;
   color: white;
+  margin: 100px 150px 70px 30px;
 }
 
 h1 strong{
@@ -55,6 +56,7 @@ h1 strong{
 .project{
 border: 1px solid grey;
 border-radius: 10px;
+margin-bottom: 15px;
 }
 
 .project-details{
