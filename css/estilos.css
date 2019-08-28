@@ -37,9 +37,19 @@ h1{
   font-size: 40px;
   line-height: 1.5;
   letter-spacing: -.2px;
+  color: white;
 }
+
+h1 strong{
+  color: #026fff;
+}
+
 .hero{
-  height: 300px;
+  background-image: url('../image/hero.jpg'); 
+  background-color: #1b2127;
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right; 
 }
 
 .project-details{
@@ -48,4 +58,14 @@ h1{
 
 .project-imageContainer{
   width: 500px;
+}
+
+.header{
+  background-color: #1b2127;
+  color: white;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
 }
