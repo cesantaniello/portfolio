@@ -52,6 +52,11 @@ h1 strong{
   background-position-x: right; 
 }
 
+.project{
+border: 1px solid grey;
+border-radius: 10px;
+}
+
 .project-details{
   width: 500px;
 }
