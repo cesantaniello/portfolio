@@ -224,3 +224,11 @@ figure{
   text-decoration: none;
   border-radius: 5px;
 }
+
+.contact{
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
