@@ -46,6 +46,15 @@ h1 strong{
   color: #026fff;
 }
 
+h2{
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
 .hero{
   background-image: url('../image/hero.jpg'); 
   background-color: #1b2127;
@@ -58,15 +67,39 @@ h1 strong{
 
 .portfolio{
   background: #fafafa;
+  padding: 20px;
 }
 
 .project{
-border: 1px solid grey;
-border-radius: 10px;
-margin: 10px;
-margin-bottom: 15px;
-padding: 20px;
-background: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-title{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-course,
+.project-date,
+.project-url{
+  margin: 10px 0;
+}
+
+.project-description{
+  font-size: 20px;  
+}
+
+.project strong{
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .project-details{
