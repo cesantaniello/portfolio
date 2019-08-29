@@ -80,14 +80,33 @@ background: white;
   color: white;
 }
 
-.header ol{
-  display: flex;
-}
 .header a{
   color: white;
   text-decoration: none;
   display: flex;
+  height: 90px;
+  align-items: center;
   justify-content: space-between;
+}
+
+.menu{
+  height: inherit;
+}
+
+.header ol{
+  display: flex;
+  height: inherit;
+}
+
+.header ol li{
+  height: inherit;
+}
+
+.header a{
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
 }
 
 ol,
