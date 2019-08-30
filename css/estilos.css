@@ -231,6 +231,10 @@ figure{
   border-radius: 5px;
 }
 
+.link{
+  margin: 0 0 0 10px;
+}
+
 .contact{
   background-color: #056fff;
   color: white;
