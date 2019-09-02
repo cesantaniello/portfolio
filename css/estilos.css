@@ -303,3 +303,28 @@ figure{
   height: inherit;
   flex-wrap: inherit;
 }
+
+/* Para Desktop first hacer el Media Query desde el más grande hasta el más pequeño */
+@media screen and (max-width: 1024px){
+  body{
+    border: 10px solid green;
+  }
+}
+
+@media screen and (max-width: 768px){
+  body{
+    border: 10px solid green;
+  }
+}
+
+@media screen and (max-width: 480px){
+  body{
+    border: 10px solid green;
+  }
+}
+
+@media screen and (max-width: 320px){
+  body{
+    border: 10px solid green;
+  }
+}
