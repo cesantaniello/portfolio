@@ -90,15 +90,14 @@ h2{
 }
 
 .project-title{
-  font-size: 30px;
-  margin-top: 0;
-  margin-bottom: 10px;
+  font-size: 1.5em;
+  margin-bottom: .3em;
 }
 
 .project-course,
 .project-date,
 .project-url{
-  margin: 10px 0;
+  margin: .3em 0;
 }
 
 .project-description{
@@ -348,11 +347,27 @@ figure{
 }
 .project-details{
   width: auto;
+  font-size: 10px;
+}
+.project-title{
+  font-size: 1.5em;
+}
+.project-url{
+  font-size: 1em;
+}
+.project-course{
+  font-size: .7em;
+}
+.project-date{
+  font-size: 1em;
+}
+.project-description{
+  font-size: .8em;
 }
 
 @media screen and (max-width: 480px){
   body{
-    /* border: 10px solid green; */
+    font-size: 12px;
   }
 }
 
