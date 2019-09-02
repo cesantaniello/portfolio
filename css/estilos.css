@@ -64,6 +64,7 @@ h2{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hero-image{
@@ -85,6 +86,7 @@ h2{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .project-title{
@@ -122,6 +124,7 @@ h2{
   height: 90px;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .menu{
@@ -176,6 +179,7 @@ figure{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer img{
@@ -242,6 +246,7 @@ figure{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .social-link{
@@ -295,7 +300,7 @@ figure{
 }
 
 .container{
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -307,24 +312,24 @@ figure{
 /* Para Desktop first hacer el Media Query desde el más grande hasta el más pequeño */
 @media screen and (max-width: 1024px){
   body{
-    border: 10px solid green;
+    /* border: 10px solid green; */
   }
 }
 
 @media screen and (max-width: 768px){
   body{
-    border: 10px solid green;
+    /* border: 10px solid green; */
   }
 }
 
 @media screen and (max-width: 480px){
   body{
-    border: 10px solid green;
+    /* border: 10px solid green; */
   }
 }
 
 @media screen and (max-width: 320px){
   body{
-    border: 10px solid green;
+    /* border: 10px solid green; */
   }
 }
