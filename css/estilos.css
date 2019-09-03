@@ -317,6 +317,15 @@ figure{
 }
 
 @media screen and (max-width: 767px){
+  .hero{
+    height: hero;
+  }
+  .hero-image{
+    position: absolute;
+  }
+  h1{
+    font-size: 2em;
+  }
   .header{
     display: block;
     height: auto;
