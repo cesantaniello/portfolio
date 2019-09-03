@@ -311,8 +311,8 @@ figure{
 
 /* Para Desktop first hacer el Media Query desde el más grande hasta el más pequeño */
 @media screen and (max-width: 1024px){
-  body{
-    /* border: 10px solid green; */
+  .container{
+    padding: 0 1em;
   }
 }
 
@@ -383,6 +383,27 @@ figure{
     /* 1em = 16px */
     margin: -2em .5em .5em;
     padding: 1em;
+  }
+
+  .contact{
+    height: auto;
+    padding: 1.5em 0;
+    text-align: center;
+    display: block;
+  }
+
+  .form-email button {
+    margin: 1em auto;
+  }
+
+  .form-email h3{
+    margin-top: 0;
+  }
+
+  .footer{
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
   }
 }
 
